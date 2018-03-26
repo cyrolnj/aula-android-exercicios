@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Consuma</string>
+    <string name="btn_create_account">Criar Conta</string>
+    <string name="name_hint">Nome</string>
+    <string name="email_hint">email@exemplo.com</string>
+    <string name="password_specs">Sua senha deve ter pelo menos 8 caracteres</string>
+    <string name="btn_login">Entrar</string>
+    <string name="title_activity_desktop">DesktopActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="credit_label">Saldo atual</string>
+    <string name="btn_add_credit">Adicionar crédito</string>
+    <string name="btn_read_menu">Cardápio</string>
+</resources>
