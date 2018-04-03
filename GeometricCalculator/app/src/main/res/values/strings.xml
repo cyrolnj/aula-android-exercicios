@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GeometricCalculator</string>
+    <string name="square_rectangle">Square/Rectangle</string>
+    <string name="triangle">Triangle</string>
+    <string name="circle">Circle</string>
+    <string name="geometric_form">Geometric Form</string>
+    <string name="radius">Radius</string>
+    <string name="hight">Hight</string>
+    <string name="base">Base</string>
+    <string name="calculate">Calculate</string>
+    <string name="area">Area:</string>
+    <string name="cm">cm</string>
+</resources>

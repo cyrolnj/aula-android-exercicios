@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GeometricCalculator</string>
+    <string name="square_rectangle">Quadrado/Retangulo</string>
+    <string name="triangle">Triangulo</string>
+    <string name="circle">Circulo</string>
+    <string name="geometric_form">Forma Geométrica</string>
+    <string name="radius">Raio</string>
+    <string name="hight">Altura</string>
+    <string name="base">Base</string>
+    <string name="calculate">Calcular</string>
+    <string name="area">Área:</string>
+    <string name="cm">cm</string>
+</resources>
