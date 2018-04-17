@@ -3,9 +3,9 @@
     package="com.solutions.oryc.consuma">
 
     <uses-permission android:name="android.permission.CAMERA" />
+
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.camera.autofocus" />
-
 
     <application
         android:allowBackup="true"
@@ -31,7 +31,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".LoginActivity" />
         </activity>
-        <activity android:name=".DesktopActivity"></activity>
+        <activity android:name=".DesktopActivity" />
+        <activity android:name=".MenuListActivity" />
+        <activity android:name=".EditMenuActivity"></activity>
     </application>
 
 </manifest>

@@ -31,12 +31,17 @@ public class DesktopActivity extends AppCompatActivity {
     }
 
 
-    public  void onClickReadMenu (View view) {
+    public void onClickReadMenu (View view) {
         final Activity activity = this;
         IntentIntegrator integrator = new IntentIntegrator(activity);
         integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE_TYPES);
         integrator.setCameraId(0);
         integrator.initiateScan();
+    }
+
+    public void onClickMenuList (View view) {
+        Intent menuListIntent = new Intent(this, MenuListActivity.class);
+        startActivity(menuListIntent);
     }
 
     @Override

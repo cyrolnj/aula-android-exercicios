@@ -23,12 +23,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-    public  void onClickCamera (View view) {
-
-    }
-
-
 }
 
 

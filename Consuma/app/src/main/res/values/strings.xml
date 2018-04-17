@@ -14,4 +14,5 @@
     <string name="credit_label">Saldo atual</string>
     <string name="btn_add_credit">Adicionar crédito</string>
     <string name="btn_read_menu">Cardápio</string>
+    <string name="save">Save</string>
 </resources>

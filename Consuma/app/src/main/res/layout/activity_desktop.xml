@@ -6,6 +6,32 @@
     android:layout_height="match_parent"
     tools:context="com.solutions.oryc.consuma.DesktopActivity">
 
+    <TextView
+        android:id="@+id/vtxtCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="R$ 200,00"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vtxtCreditLabel" />
+
+    <TextView
+        android:id="@+id/vtxtCreditLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/credit_label"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/btn_add_credit"
         android:layout_width="match_parent"
@@ -35,29 +61,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_add_credit" />
 
-    <TextView
-        android:id="@+id/vtxtCredit"
+    <Button
+        android:id="@+id/btn_menu_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="R$ 200,00"
-        android:textAlignment="center"
-        android:textSize="40dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:onClick="onClickMenuList"
+        android:text="meus cardápios"
+        android:textColor="@color/colorButtonText"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/vtxtCreditLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_read_menu" />
 
-    <TextView
-        android:id="@+id/vtxtCreditLabel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="@string/credit_label"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
